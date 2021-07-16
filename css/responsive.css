@@ -1,0 +1,359 @@
+@media(max-width: 1600px) {
+    .participar aside img {
+        width: 57%;
+    }
+    .participar aside img:nth-child(2) {
+        right: -40px;
+        top: 100px;
+    }
+    .participar aside img:nth-child(3) {
+        top: 0;
+        position: relative;
+        right: -52px;
+    }
+}
+@media(max-width: 1200px) {
+    .premio-video span {
+        max-width: 900px;
+    }
+}
+@media(max-width: 1200px) {
+    .fondo-formulario .formulario {
+        max-width: 900px;
+    }
+    form .año {
+        width: 100px;
+    }
+    form .meses {
+        width: 130px;
+        margin-left: 15px;
+    }
+    form .dia {
+        width: 90px;
+        margin-left: 15px;
+    }
+}
+@media(max-width: 991px) {
+    .premio-video h1 {
+        font-size: 38px;
+    }
+    .premio-video span p {
+        font-size: 15px;
+    }
+    .desktop-view {
+        display: none;
+    }
+    .fondo-formulario h1 {
+        font-size: 38px;
+    }
+    .fondo-formulario .formulario {
+        padding: 25px 15px 67px 15px;
+    }
+    form {
+        padding-left: 0;
+    }
+    .contenedor-doble, .contenedor-fecha {
+        flex-direction: column;
+    }
+    .contenedor-fecha label, .contenedor-fecha span {
+        width: 100%;
+    }
+    form .alineado {
+        max-width: inherit;
+    }
+    .formulario label {
+        font-size: 14px;
+    }
+    form select {
+        font-size: 12px;
+    }
+    form select {
+        background-size: 22px;
+    }
+    .contenedor-doble span {
+        width: 100%;
+    }
+    .contenedor-doble span:first-child {
+       padding-right: 0;
+    }
+    .contenedor-doble span:last-child {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    form .año {
+        width: 25%;
+    }
+    form .meses {
+        width: 43%;
+        margin-left: 5px;
+    }
+    form .dia {
+        width: 25%;
+        margin-left: 5px;
+    } 
+    .formulario h2 {
+        font-size: 20px;
+    }
+    .marcador-pagina h1 {
+        font-size: 28px;
+        padding: 20px 20px 0px 20px;
+    }
+    .links {
+        font-size: 17px;
+    }
+    .contenedor-links span:last-child {
+        padding-left: 10px;
+    }
+    .contenedor-links span:first-child {
+        padding-right: 10px;
+    }
+    .marcador-pagina { 
+        left: 15px; 
+        top: -13px;
+    }
+
+    footer .contenedor {
+        flex-direction: column;
+        padding: 50px 20px 20px 20px;
+    }
+    footer .contenedor img {
+        padding-bottom: 30px;
+    }
+    footer .contenedor {
+        margin-top: 0;
+    }
+    .desktop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .formulario .subtitulo {
+        font-size: 20px;
+    }
+    .fondo-formulario {
+        background-size: 100%, 100%;
+    }
+    .premios-descripcion-abajo {
+        padding: 30px 10px;
+    }
+    .premios-descripcion-arriba {
+        padding: 15px 15px 5px 15px;
+    }
+    .premios-descripcion-arriba h2 {
+        font-size: 46px;
+    }
+    .premios-descripcion p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .premios-descripcion h2 + p {
+        font-size: 14px;
+    }
+    .participar article {
+        width: 100%;
+        padding-right: 0;
+    }
+    .premios-descripcion article:hover h2, .premios-descripcion article:hover h3 {
+        transform: scale(1.02);
+    }
+    .participar aside {
+        display: none;
+    }
+    .card-body {
+        font-size: 16px;
+    }
+    .contenedor-texto-video {
+        order: 2;
+    }
+    .embed-container {
+        margin-bottom: 30px;
+    }
+    .participa-del-premio h2 {
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+    .participa-del-premio {
+        padding-top: 70px;
+        margin-top: 50px;
+    }
+    .premio-video hr {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 768px) { 
+    footer .contenedor .redes-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .contenedor .redes-footer span {
+        padding-top: 20px;
+    }
+    .check-box span {
+        width: 50%;
+    }
+    .otros {
+        flex-direction: column;
+    }
+    .otros label, .otros input {
+        width: 100%;
+    } 
+    .btn-video {
+        width: 100px !important;
+    }
+    .btn-form {
+        width: 100%;
+    }
+    .check-inline {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-igj-afip {
+        width: 215px !important;
+    }
+    .input-group>.form-control:not(:first-child) {
+        margin-left: 5px;
+    }
+    .btn-comprobante {
+        width: 160px !important;
+    }
+    .label-importe, .label-otros {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .label-importe label, .label-otros label {
+        width: 100%;
+    }
+    .label-importe input {
+        width: 195px;
+    }
+    .label-otros input {
+        width: 100%;
+    }
+    .label-otros.espaciado-top.otros input {
+        width: 100%;
+    }
+    .premios-descripcion article {
+        width: 100%;
+        margin-bottom: 10px;
+        -webkit-box-shadow: 0px 2px 8px 0px rgba(166,163,166,0.78);
+        -moz-box-shadow: 0px 2px 8px 0px rgba(166,163,166,0.78);
+        box-shadow: 0px 2px 8px 0px rgba(166,163,166,0.78);
+    }
+    .premios-descripcion .premios-contenedor {
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .participar-contenedor {
+        margin-top: 70px;
+    }
+    .participar article h2 {
+        font-size: 38px;
+    }
+    .participar article p {
+        font-size: 15px;
+    }
+    .embed-container {
+        padding-bottom: 80%;
+    } 
+    .contenedor-iframe-uno {
+        padding-bottom: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .premio-video span {
+        padding: 20px 10px 15px 10px;
+    }
+    .preguntas-frecuentes.contenedor {
+        padding: 30px 15px 100px 15px;
+    }
+    .participa-del-premio {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .contenedor-texto-video {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .premio-video {
+        background-position-x: -1132px;
+        padding-bottom: 405px;
+        background-size: auto;
+    }
+    .premios-descripcion {
+        margin-top: -330px;
+    }
+    .alineacion-right {
+        justify-content: flex-start;
+    }
+    .btn-sec-premio {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .etapas h3 {
+        font-size: 26px;
+    }
+    .etapas p {
+        font-size: 15px;
+    }
+    .contenedor-mini aside span:last-child {
+        padding-left: 15px;
+    }
+    .etapas aside span img {
+        width: 100px;
+    }
+    .contenedor-mini aside span:first-child:before {
+        bottom: -103px;
+        right: 47px;
+        height: 107%;
+    }
+    .etapas h2 {
+        font-size: 38px;
+        text-align: start;
+        padding-bottom: 20px;
+    }
+    hr {
+        margin: 0;
+        width: 37px;
+    }
+    .etapas {
+        padding-top: 52px;
+        margin-top: 0;
+    }
+    .preguntas-frecuentes h2 {
+        font-size: 38px;
+        text-align: start;
+        padding-bottom: 20px;
+    }
+    .preguntas-frecuentes h4 {
+        font-size: 17px;
+    }
+    .btn-descarga {
+        width: 100%;
+        height: 47px;
+        font-size: 24px;
+    }
+    .fondo-bases-condiciones h4 {
+        font-size: 18px;
+    }
+    .contenedor-bases span {
+        font-size: 16px;
+}
+@media(max-width: 536px) {
+    .links {
+        font-size: 16px;
+    }
+    .contenedor-links span:last-child {
+        padding-left: 5px;
+    }
+    .contenedor-links span:first-child {
+        padding-right: 5px;
+    }
+    .fondo-formulario {
+        background-size: 100%, 161%;
+    }
+    .premio-video {
+        background-position-x: -1225px;
+    }    
+}
